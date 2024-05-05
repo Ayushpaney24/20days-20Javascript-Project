@@ -1,0 +1,79 @@
+#main_container {
+  width: 400px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  font-family: sans-serif;
+  border-radius: 20px;
+  border: 3px solid #999;
+}
+
+#birth_date_input,
+#age_container {
+  text-align: center;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#age_container {
+  margin: 40px 5px;
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  font-weight: bolder;
+  background: #eee;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#calculate {
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #999;
+  border-radius: 10px;
+  background: #ffd119;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffd119),
+    to(#e6b800)
+  );
+  background: -moz-linear-gradient(top, #ffd119, #e6b800);
+  font-weight: bold;
+  height: 28px;
+  box-shadow: 0 -8px inset;
+}
+
+#calculate:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e6b800),
+    to(#ffd119)
+  );
+  background: -moz-linear-gradient(top, #e6b800, #ffd119);
+  margin-top: 13px;
+  height: 25px;
+  box-shadow: 0 -5px inset;
+}
+
+#calculate:active {
+  background: #403300;
+  padding-top: 10px;
+  height: 20px;
+  box-shadow: 0 5px #000 inset;
+}
+
+#age {
+  padding: 5px;
+  border: 3px dashed #aaa;
+}
