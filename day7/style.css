@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+}
+
+#gameBoard {
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(223, 103, 17, 0.7);
+}
+
+.cell:hover {
+  box-shadow: 0 0 20px rgba(224, 128, 38, 0.9);
+}
+
+#scoreBoard {
+  margin: 20px;
+}
+#scoreBoard p {
+  width: 45%;
+  display: inline-block;
+}
+
+button {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+}
+
+button:hover {
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.9);
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px;
+  width: calc(100% - 40px);
+}
+.cell.x {
+  color: #00ff00; /* Green color */
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00,
+    0 0 40px #00ff00;
+}
+
+.cell.o {
+  color: #00ffff; /* Cyan color */
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff,
+    0 0 40px #00ffff;
+}
+
+.cell.win {
+  color: #ffff00; /* Yellow color */
+  text-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00, 0 0 30px #ffff00,
+    0 0 40px #ffff00;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <div id="main">
+    <h1>Tic Tac Toe</h1>
+    <div id="scoreBoard">
+      <p>X's score: <span id="scoreX">0</span></p>
+      <p>O's score: <span id="scoreO">0</span></p>
+    </div>
+    <div id="gameModeSelection">
+      <button id="twoPlayerMode">Two Player Mode</button>
+      <!-- <button id="playerComputerMode">Player vs Computer</button> -->
+    </div>
+    <div id="playerInfo">
+      <input type="text" id="player1Name" placeholder="Enter player 1 name">
+      <input type="text" id="player2Name" placeholder="Enter player 2 name" style="display: none;">
+    </div>
+    <div id="gameBoard">
+      <div class="cell" id="cell1"></div>
+      <div class="cell" id="cell2"></div>
+      <div class="cell" id="cell3"></div>
+      <div class="cell" id="cell4"></div>
+      <div class="cell" id="cell5"></div>
+      <div class="cell" id="cell6"></div>
+      <div class="cell" id="cell7"></div>
+      <div class="cell" id="cell8"></div>
+      <div class="cell" id="cell9"></div>
+    </div>
+    <button id="newGame">New Game</button>
+  </div>
+
+</body>
+</html>
